@@ -58,7 +58,7 @@ body{
        grid-template-columns: repeat(1 ,100%);
        border :55px solid #e7dede;
        padding :1.5rem;
-       background-color: #c1c9c9;;
+       background-color: #c1c9c9;
 }
 .boxx{
     background-image: url(tree-736885_1280.jpg);
