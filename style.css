@@ -1,0 +1,115 @@
+*{
+    padding: 0% ;
+    margin: 0%;
+    
+}
+#services{
+    text-align: center;
+    color: #3d0b0b;
+}
+.navbar ul {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.3rem 25%;
+    font-size: 1.15rem;
+    list-style : none;
+    display: flex;
+    gap: 7%;
+    background-color: rgba(47, 69, 88, 0.425);
+    
+}
+a{
+    text-decoration: none;
+    color: rgba(247, 245, 244, 0.979);
+       
+}
+ul a:hover{
+    background-color: rgb(48, 86, 119);
+}
+.icon{
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 3.15rem;
+    padding: 0rem 10%; 
+    width: 0%;
+    list-style : none;
+
+}
+#head{
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+    padding: 20%; 
+    color: aquamarine;   
+}
+body{
+    background-color: rgb(231, 222, 222);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#feedback{
+       text-align: center;
+       color: #3d0b0b;
+       display: grid;
+       grid-template-columns: repeat(1 ,100%);
+       border :55px solid #c1c9c9;
+       padding :1.5rem;
+}
+.boxx{
+    background-image: url(tree-736885_1280.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position: bottom;
+}
+.boxcontainer{
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 30rem);
+    gap: 2rem;
+    justify-content: center;
+    align-items: flex-start;
+}
+.a{
+    box-shadow: var(box-shadow);
+    background-color: rgba(141, 172, 172, 0.425);
+    padding: 3.1rem;
+}
+
+#about{
+  padding: 2.5rem 27%;
+}
+#about  p{
+    
+    display: grid;
+    grid-template-columns: repeat(1,100%);
+    padding: 82px 20%;
+    text-align: center;
+    background-color: rgba(141, 172, 172, 0.425);
+}
+#about h1{
+    text-align: center;
+    margin-bottom:1.15rem;
+}
+
+.footer{
+    background-color: rgba(15, 15, 15, 0.849);
+    padding: 4%;  
+    
+}
+.flex {
+    display: flex;
+    justify-content: space-around;   
+}
+.flex a:hover{
+    background-color: rgba(8, 104, 80, 0.801);
+    
+}
+.credit{
+    display: flex;
+    justify-content: center;
+    color: rgb(219, 134, 30);
+}
